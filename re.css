@@ -1,0 +1,239 @@
+#logo {
+  height: 70px;
+  width: 200px;
+  padding-left: 30px;
+}
+nav {
+  display: flex;
+  background-color: black;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 50px;
+  padding-left: 20px;
+  position: relative;
+  top: 25px;
+}
+a:hover {
+  color: orangered;
+}
+#searchicon {
+  height: 70px;
+  width: 50px;
+  padding-left: 16px;
+}
+#mid {
+  padding-left: 300px;
+}
+#flag {
+  height: 50px;
+  width: 56px;
+  padding-left: 16px;
+  position: relative;
+  top: 15px;
+}
+#content {
+  border: 1px solid;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  width: 100%;
+  font-family: sans-serif;
+  position: static;
+}
+.containar {
+  display: flex;
+}
+.img {
+  position: relative;
+  height: 300px;
+  width: 378px;
+  top: -3px;
+}
+#first {
+  width: 100%;
+}
+.imgtext {
+  position: absolute;
+}
+#secondnav {
+  display: flex;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: -20px;
+  font-family: sans-serif;
+}
+#secondnav > p {
+  padding-left: 40px;
+}
+#secondimg {
+  width: 100%;
+  position: relative;
+  top: -20px;
+}
+.it {
+  position: relative;
+}
+.imgtext {
+  position: absolute;
+  color: white;
+  top: 220px;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: 400;
+  padding-left: 30px;
+}
+p:hover {
+  color: orangered;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.img {
+  transition: transform 0.2s;
+
+  position: relative;
+  height: 300px;
+  width: 370px;
+  top: -3px;
+}
+
+.img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#thirdnav {
+  display: flex;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: -30px;
+  font-family: sans-serif;
+}
+
+#thirdimg {
+  width: 100%;
+  position: relative;
+  top: -30px;
+}
+#thirdnav > p {
+  padding-left: 20px;
+}
+#fournav {
+  display: flex;
+  background-color: rgb(20, 18, 18);
+  color: white;
+  position: relative;
+  top: -40px;
+  font-family: sans-serif;
+}
+#fournav > p {
+  padding-left: 20px;
+}
+#fourimg {
+  width: 100%;
+  position: relative;
+  top: -40px;
+}
+#fiveimg {
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+#fivenav {
+  display: flex;
+  background-color: rgb(20, 18, 18);
+  color: white;
+  position: relative;
+  top: -50px;
+  font-family: sans-serif;
+}
+#fivenav > p {
+  padding-left: 20px;
+}
+#sixnav > p {
+  padding-left: 20px;
+}
+#siximg {
+  width: 100%;
+  position: relative;
+  top: -70px;
+}
+#sixnav {
+  display: flex;
+  background-color: rgb(20, 18, 18);
+  color: white;
+  position: relative;
+  top: -70px;
+  font-family: sans-serif;
+}
+#sixnav > p {
+  padding-left: 20px;
+}
+#content2 {
+  border: 1px solid;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  width: 100%;
+  font-family: sans-serif;
+  position: relative;
+  top: -110px;
+}
+#img4 {
+  display: flex;
+}
+.footerimg {
+  height: 300px;
+  width: 400px;
+}
+#img4 {
+  position: relative;
+  top: -110px;
+}
+.imgtext2 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  min-width: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  padding-left: 27px;
+  left: 50px;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+.imgtext2:hover {
+  color: orangered;
+}
+.img1 {
+  position: relative;
+  height: 300px;
+  width: 370px;
+  top: -3px;
+}
+#footer {
+  display: flex;
+  background-color: rgb(226, 224, 224);
+  margin-top: -120px;
+  justify-content: space-around;
+}
+li {
+  font-family: sans-serif;
+  list-style: none;
+  line-height: 30px;
+}
+li:hover {
+  color: orangered;
+}
